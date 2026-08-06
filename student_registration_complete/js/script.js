@@ -1,0 +1,1 @@
+function register(){const n=name.value,e=email.value,m=mobile.value,c=course.value,p=password.value;if(!n||!e||!m||!c||!p){msg.style.color="red";msg.textContent="Please fill all fields.";return;}msg.style.color="green";msg.textContent="Registration Successful!";}
